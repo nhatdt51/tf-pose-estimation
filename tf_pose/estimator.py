@@ -8,6 +8,8 @@ import numpy as np
 import tensorflow as tf
 import time
 
+tf.compat.v1.disable_eager_execution()
+
 from tf_pose import common
 from tf_pose.common import CocoPart
 from tf_pose.tensblur.smoother import Smoother
