@@ -5,7 +5,7 @@ from __future__ import print_function
 import os
 import subprocess
 import setuptools
-from distutils.core import setup, Extension
+from setuptools import setup, Extension
 
 import numpy as np
 
