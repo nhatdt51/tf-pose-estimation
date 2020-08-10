@@ -50,7 +50,6 @@ setuptools.setup(
     'Deep Pose Estimation implemented using Tensorflow with Custom Architectures for fast inference.',
     install_requires=REQUIRED_PACKAGES,
     dependency_links=DEPENDENCY_LINKS,
-    setup_requires=["numpy"],
     url='https://github.com/ildoonet/tf-pose-estimation/',
     author='Ildoo Kim',
     author_email='ildoo@ildoo.net',
